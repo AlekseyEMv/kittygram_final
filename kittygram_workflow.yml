@@ -164,6 +164,9 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: |
-          Деплой успешно выполнен! ${{ github.actor }} запушил коммит (${{ github.event.commits[0].message }})
-          в репозиторий: ${{ github.repository }}
-          Посмотреть коммит можно по адресу: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+            ${{ github.actor }} created commit:
+            Commit message: ${{ github.event.commits[0].message }}
+            
+            Repository: ${{ github.repository }}
+            
+            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
