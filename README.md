@@ -1,3 +1,6 @@
+[![Main Kittygram Workflow](https://github.com/AlekseyEMv/kittygram_final/actions/workflows/main.yml/badge.svg)](https://github.com/AlekseyEMv/kittygram_final/actions/workflows/main.yml)
+
+
 #  Как работать с репозиторием финального задания
 
 ## Что нужно сделать
