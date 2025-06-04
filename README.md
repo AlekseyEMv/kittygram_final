@@ -78,7 +78,7 @@ sudo nginx -t
 
 5. Перезагрузка конфигурации Nginx:
 ```bash
-sudo certbot --nginx -d your-domain.com
+sudo service nginx reload
 ```
 
 ## Настройка .env файла
